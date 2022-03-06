@@ -358,13 +358,47 @@
 											"height": 13,
 											"text": "+take_amino_acid(int): void",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF/YMnFbgrQnNc=",
+											"_parent": {
+												"$ref": "AAAAAAF/TxavcupZgf4="
+											},
+											"model": {
+												"$ref": "AAAAAAF/YMnFZArN2ik="
+											},
+											"font": "Arial;13;0",
+											"left": 965,
+											"top": 929,
+											"width": 247.482421875,
+											"height": 13,
+											"text": "+learn_genetic_code(): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF/YMpZ5A2r9MI=",
+											"_parent": {
+												"$ref": "AAAAAAF/TxavcupZgf4="
+											},
+											"model": {
+												"$ref": "AAAAAAF/YMpZ3A2oK+E="
+											},
+											"font": "Arial;13;0",
+											"left": 965,
+											"top": 944,
+											"width": 247.482421875,
+											"height": 13,
+											"text": "+add_genetic_code(genetic_code): void",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 960,
 									"top": 804,
 									"width": 257.482421875,
-									"height": 128
+									"height": 158
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -14518,6 +14552,53 @@
 									"_id": "AAAAAAF/YLKDeAJTLVw=",
 									"_parent": {
 										"$ref": "AAAAAAF/YLJiBgFbaGU="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF/YMnFZArN2ik=",
+							"_parent": {
+								"$ref": "AAAAAAF/Txavb+pQqOE="
+							},
+							"name": "learn_genetic_code",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/YMo24QvFnlo=",
+									"_parent": {
+										"$ref": "AAAAAAF/YMnFZArN2ik="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF/YMpZ3A2oK+E=",
+							"_parent": {
+								"$ref": "AAAAAAF/Txavb+pQqOE="
+							},
+							"name": "add_genetic_code",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/YMqcqQ6f3kQ=",
+									"_parent": {
+										"$ref": "AAAAAAF/YMpZ3A2oK+E="
+									},
+									"name": "genetic_code",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/YMqcqQ6g0kk=",
+									"_parent": {
+										"$ref": "AAAAAAF/YMpZ3A2oK+E="
 									},
 									"type": "void",
 									"direction": "return"

@@ -271,7 +271,7 @@
 											"top": 839,
 											"width": 247.482421875,
 											"height": 13,
-											"text": "+get_cast_on(agent): void",
+											"text": "+get_cast_on(agent, character): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -305,7 +305,7 @@
 											"top": 869,
 											"width": 247.482421875,
 											"height": 13,
-											"text": "+take_loot(): void",
+											"text": "+take_loot(character, equipment): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -324,13 +324,47 @@
 											"height": 13,
 											"text": "+get_loot_taken(equipment): bool",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF/YLHclf9F6VA=",
+											"_parent": {
+												"$ref": "AAAAAAF/TxavcupZgf4="
+											},
+											"model": {
+												"$ref": "AAAAAAF/YLHcjv9CiAg="
+											},
+											"font": "Arial;13;0",
+											"left": 965,
+											"top": 899,
+											"width": 247.482421875,
+											"height": 13,
+											"text": "+take_nukleotide(int): void",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF/YLJiDAFeVxY=",
+											"_parent": {
+												"$ref": "AAAAAAF/TxavcupZgf4="
+											},
+											"model": {
+												"$ref": "AAAAAAF/YLJiBgFbaGU="
+											},
+											"font": "Arial;13;0",
+											"left": 965,
+											"top": 914,
+											"width": 247.482421875,
+											"height": 13,
+											"text": "+take_amino_acid(int): void",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 960,
 									"top": 804,
 									"width": 257.482421875,
-									"height": 98
+									"height": 128
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -14320,8 +14354,7 @@
 									"_parent": {
 										"$ref": "AAAAAAF/T6KzEgMXkD4="
 									},
-									"name": "agent",
-									"type": ""
+									"name": "agent"
 								},
 								{
 									"_type": "UMLParameter",
@@ -14331,6 +14364,15 @@
 									},
 									"type": "void",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/YLGqh/2Q9L0=",
+									"_parent": {
+										"$ref": "AAAAAAF/T6KzEgMXkD4="
+									},
+									"name": "character",
+									"type": ""
 								}
 							]
 						},
@@ -14369,6 +14411,24 @@
 									},
 									"type": "void",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/YLFal/sbPUg=",
+									"_parent": {
+										"$ref": "AAAAAAF/WxFBnsMxuAk="
+									},
+									"name": "character",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/YLFamPsc5Dw=",
+									"_parent": {
+										"$ref": "AAAAAAF/WxFBnsMxuAk="
+									},
+									"name": "equipment",
+									"type": ""
 								}
 							]
 						},
@@ -14396,6 +14456,61 @@
 										"$ref": "AAAAAAF/Wz1KN+LtV5I="
 									},
 									"type": "bool",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF/YLHcjv9CiAg=",
+							"_parent": {
+								"$ref": "AAAAAAF/Txavb+pQqOE="
+							},
+							"name": "take_nukleotide",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/YLJSiAA5CoY=",
+									"_parent": {
+										"$ref": "AAAAAAF/YLHcjv9CiAg="
+									},
+									"type": "void",
+									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/YLKjEwSXGeA=",
+									"_parent": {
+										"$ref": "AAAAAAF/YLHcjv9CiAg="
+									},
+									"name": "int",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF/YLJiBgFbaGU=",
+							"_parent": {
+								"$ref": "AAAAAAF/Txavb+pQqOE="
+							},
+							"name": "take_amino_acid",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/YLKDeAJSujc=",
+									"_parent": {
+										"$ref": "AAAAAAF/YLJiBgFbaGU="
+									},
+									"name": "int"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/YLKDeAJTLVw=",
+									"_parent": {
+										"$ref": "AAAAAAF/YLJiBgFbaGU="
+									},
+									"type": "void",
 									"direction": "return"
 								}
 							]

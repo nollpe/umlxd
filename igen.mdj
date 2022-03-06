@@ -519,13 +519,30 @@
 											"height": 13,
 											"text": "+generate_map(): void",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF/X00gIkOzH98=",
+											"_parent": {
+												"$ref": "AAAAAAF/TxiHGeqGvK0="
+											},
+											"model": {
+												"$ref": "AAAAAAF/X00gC0Owb8w="
+											},
+											"font": "Arial;13;0",
+											"left": 789,
+											"top": 431,
+											"width": 215,
+											"height": 13,
+											"text": "+tick(): void",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 784,
 									"top": 411,
 									"width": 225,
-									"height": 23
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -626,7 +643,7 @@
 											"top": 516,
 											"width": 198,
 											"height": 13,
-											"text": "mezo"
+											"text": "field"
 										},
 										{
 											"_type": "LabelView",
@@ -698,7 +715,7 @@
 											"top": 539,
 											"width": 198,
 											"height": 13,
-											"text": "-neighbours: mezo",
+											"text": "-neighbours: field",
 											"horizontalAlignment": 0
 										}
 									],
@@ -14228,6 +14245,25 @@
 									"direction": "return"
 								}
 							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF/X00gC0Owb8w=",
+							"_parent": {
+								"$ref": "AAAAAAF/TxiHGOp9OEI="
+							},
+							"name": "tick",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/X003IEUfqeg=",
+									"_parent": {
+										"$ref": "AAAAAAF/X00gC0Owb8w="
+									},
+									"type": "void",
+									"direction": "return"
+								}
+							]
 						}
 					]
 				},
@@ -14237,7 +14273,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "mezo",
+					"name": "field",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",

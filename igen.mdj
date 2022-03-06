@@ -237,7 +237,7 @@
 											"top": 809,
 											"width": 247.482421875,
 											"height": 13,
-											"text": "+move(): void",
+											"text": "+move(direction): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -14300,6 +14300,15 @@
 									},
 									"type": "void",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF/YMSABwgrXjU=",
+									"_parent": {
+										"$ref": "AAAAAAF/T6GcmwMI4z8="
+									},
+									"name": "direction",
+									"type": ""
 								}
 							]
 						},
